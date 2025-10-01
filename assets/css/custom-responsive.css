@@ -1,0 +1,172 @@
+/* CSS personalizado para corrigir responsividade */
+
+/* Correções para a seção "Quem somos" em mobile */
+@media (max-width: 767px) {
+    /* Seção Quem somos */
+    .support-company-area .support-wrapper {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+    
+    .support-company-area .left-content {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    
+    .support-company-area .right-content {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .support-company-area .support-caption p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .support-company-area .section-tittle2 {
+        margin-bottom: 30px;
+    }
+    
+    .support-company-area .section-tittle2 .front-text h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    
+    .support-company-area .section-tittle2 .back-text {
+        font-size: 40px;
+        opacity: 0.1;
+    }
+    
+    /* Ajustes para a seção da equipe */
+    .team-area .team-info {
+        padding: 20px 15px !important;
+    }
+    
+    .team-area .team-info p {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .team-area .team-info h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    /* Correções gerais para texto em mobile */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Ajustes para seções com padding lateral */
+    .pl-40, .pr-40 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    /* Correções para títulos em mobile */
+    h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    
+    h4 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    
+    /* Ajustes para parágrafos */
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    /* Correções para imagens responsivas */
+    .right-img img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    /* Ajustes para seção de serviços */
+    .services-area .single-service-cap {
+        margin-bottom: 30px;
+    }
+    
+    /* Correções para formulário de contato */
+    .contact-section .form-contact {
+        padding: 0 15px;
+    }
+    
+    .contact-section .contact-info {
+        padding: 0 15px;
+        margin-top: 30px;
+    }
+}
+
+/* Tablet - ajustes intermediários */
+@media (min-width: 768px) and (max-width: 991px) {
+    .support-company-area .support-caption p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    
+    .team-area .team-info {
+        padding: 30px 20px;
+    }
+    
+    .pl-40, .pr-40 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+/* Correções para dispositivos muito pequenos */
+@media (max-width: 480px) {
+    .support-company-area .section-tittle2 .front-text h2 {
+        font-size: 20px;
+    }
+    
+    .support-company-area .section-tittle2 .back-text {
+        font-size: 30px;
+    }
+    
+    .support-company-area .support-caption p {
+        font-size: 13px;
+    }
+    
+    .team-area .team-info p {
+        font-size: 13px;
+    }
+    
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Correções para overflow de texto */
+.support-wrapper {
+    overflow: hidden;
+}
+
+.left-content, .right-content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Garantir que imagens não quebrem o layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
